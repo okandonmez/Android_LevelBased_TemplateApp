@@ -14,7 +14,6 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         setSplashLogic(2500);
-
     }
 
     private void setSplashLogic(int SPLASH_DISPLAY_LENGTH){
