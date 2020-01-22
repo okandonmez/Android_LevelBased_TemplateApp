@@ -88,6 +88,7 @@ public class LevelChoose extends AppCompatActivity {
                 valuesFinal[i] = valuesLocked[i];
                 imagesFinal[i] = imagesLocked[i];
             }
+            int a;
         }
 
     }
