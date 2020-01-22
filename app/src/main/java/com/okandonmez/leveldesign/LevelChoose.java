@@ -37,7 +37,6 @@ public class LevelChoose extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level_choose);
         connectUI();
-        int a;
 
     }
 
