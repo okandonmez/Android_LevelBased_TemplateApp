@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LevelDesign</string>
+    <string name="splashscreen">SplashScreen</string>
 </resources>

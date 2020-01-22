@@ -12,7 +12,8 @@
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@android:drawable/ic_menu_compass" />
+        android:src="@android:drawable/ic_menu_compass"
+        />
 
     <Button
         android:id="@+id/btnStart"
@@ -21,7 +22,8 @@
         android:text="Start"
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        />
 
     <Button
         android:id="@+id/btnTemp"
@@ -30,7 +32,8 @@
         android:layout_below="@+id/btnStart"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="Temp"/>
+        android:text="Temp"
+        />
 
     <Button
         android:id="@+id/btnTmp1"
@@ -62,4 +65,5 @@
         android:layout_marginBottom="20dp"
         android:text="Temp4"
         />
+
 </RelativeLayout>
