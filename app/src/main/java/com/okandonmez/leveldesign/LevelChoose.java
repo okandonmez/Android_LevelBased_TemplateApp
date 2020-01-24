@@ -73,7 +73,7 @@ public class LevelChoose extends AppCompatActivity {
     private void setLevelUnlockLogic() {
         SharedPreferences prefs = getSharedPreferences("levelDesignLogic", MODE_PRIVATE);
         lastLevel = prefs.getInt("lastLevel", 0);
-        Toast.makeText(getApplicationContext(), lastLevel + "", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), lastLevel + "", Toast.LENGTH_SHORT).show();
         //lastLevel = 4;
 
         valuesFinal = new String[totalLevel];
@@ -84,11 +84,10 @@ public class LevelChoose extends AppCompatActivity {
                 valuesFinal[i] = valuesUnlocked[i];
                 imagesFinal[i] = imagesUnlocked[i];
             }
-            else{
+            else {
                 valuesFinal[i] = valuesLocked[i];
                 imagesFinal[i] = imagesLocked[i];
             }
-            int a;
         }
 
     }

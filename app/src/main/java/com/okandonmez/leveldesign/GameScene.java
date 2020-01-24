@@ -53,5 +53,6 @@ public class GameScene extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onBackPressed() {
         startActivity(new Intent(getApplicationContext(), LevelChoose.class));
+        GameScene.this.finish();
     }
 }
